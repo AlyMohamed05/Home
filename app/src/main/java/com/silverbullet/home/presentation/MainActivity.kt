@@ -15,6 +15,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.silverbullet.home.presentation.ui.theme.HomeTheme
+import com.silverbullet.home.presentation.ui.theme.Montserrat
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -33,7 +34,8 @@ class MainActivity : ComponentActivity() {
                         Text(
                             text = "Bluetooth",
                             fontWeight = FontWeight.Bold,
-                            fontSize = 33.sp,
+                            fontSize = 40.sp,
+                            fontFamily = Montserrat,
                             color = Color.Blue
                         )
                     }
